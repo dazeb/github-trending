@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "GitHub Trending Repositories",
+  "version": "1.0",
+  "description": "Display trending GitHub repositories on new tabs",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "https://api.github.com/"
+  ]
+}
