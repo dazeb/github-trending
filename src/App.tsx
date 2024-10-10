@@ -6,6 +6,7 @@ import { Repository } from './types'
 import { Button } from './components/ui/button'
 import { ThemeToggle } from './components/ThemeToggle'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './components/ui/select'
+import { Analytics } from "@vercel/analytics/react"
 
 const topLanguages = [
   'All',
